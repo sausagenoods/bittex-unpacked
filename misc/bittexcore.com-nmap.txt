@@ -1,0 +1,76 @@
+# Nmap 7.80 scan initiated Thu Jul 29 03:40:39 2021 as: nmap -A -oN bittexcore.com.nmap.txt bittexcore.com
+Nmap scan report for bittexcore.com (37.120.239.161)
+Host is up (0.077s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE  VERSION
+22/tcp   open     ssh      OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5f:92:e9:be:94:59:55:ce:54:8d:70:bb:49:d0:a9:35 (RSA)
+|   256 3d:f8:6c:ea:bb:f9:c8:fe:1b:9a:05:ec:2e:1f:c6:ee (ECDSA)
+|_  256 ef:c1:01:76:b1:32:4e:72:b1:18:8e:55:c4:83:c5:dd (ED25519)
+25/tcp   filtered smtp
+53/tcp   open     domain   PowerDNS Authoritative Server 4.3.1
+| dns-nsid: 
+|   NSID: 37-120-239-161.cprapid.com (33372d3132302d3233392d3136312e637072617069642e636f6d)
+|   id.server: 37-120-239-161.cprapid.com
+|_  bind.version: PowerDNS Authoritative Server 4.3.1 (built Mar 10 2021 14:03:23 by root@rpmbuild-64-centos-7.dev.cpanel.net)
+80/tcp   open     http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+110/tcp  open     pop3     Dovecot pop3d
+|_pop3-capabilities: UIDL TOP STLS SASL(PLAIN LOGIN) CAPA PIPELINING USER RESP-CODES AUTH-RESP-CODE
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+111/tcp  open     rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|_  100000  3,4          111/udp6  rpcbind
+143/tcp  open     imap     Dovecot imapd
+|_imap-capabilities: ID STARTTLS capabilities OK NAMESPACE have more AUTH=LOGINA0001 listed LOGIN-REFERRALS SASL-IR AUTH=PLAIN Pre-login post-login LITERAL+ ENABLE IDLE IMAP4rev1
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+443/tcp  open     ssl/ssl  Apache httpd (SSL-only mode)
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+465/tcp  open     ssl/smtp Exim smtpd 4.94.2
+| smtp-commands: 37-120-239-161.cprapid.com Hello bittexcore.com [31.206.9.78], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, AUTH PLAIN LOGIN, HELP, 
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+587/tcp  open     smtp     Exim smtpd 4.94.2
+| smtp-commands: 37-120-239-161.cprapid.com Hello bittexcore.com [31.206.9.78], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+993/tcp  open     imaps?
+|_imap-capabilities: ID capabilities ENABLE NAMESPACE have more AUTH=LOGINA0001 listed LOGIN-REFERRALS SASL-IR AUTH=PLAIN Pre-login OK LITERAL+ post-login IDLE IMAP4rev1
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+995/tcp  open     pop3s?
+|_pop3-capabilities: CAPA SASL(PLAIN LOGIN) UIDL TOP USER RESP-CODES AUTH-RESP-CODE PIPELINING
+| ssl-cert: Subject: commonName=bittexcore.com
+| Subject Alternative Name: DNS:bittexcore.com, DNS:cpanel.bittexcore.com, DNS:cpcalendars.bittexcore.com, DNS:cpcontacts.bittexcore.com, DNS:mail.bittexcore.com, DNS:webdisk.bittexcore.com, DNS:webmail.bittexcore.com, DNS:www.bittexcore.com
+| Not valid before: 2021-07-25T00:00:00
+|_Not valid after:  2021-10-23T23:59:59
+3306/tcp open     mysql    MySQL (unauthorized)
+Service Info: Host: 37-120-239-161.cprapid.com
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jul 29 03:41:27 2021 -- 1 IP address (1 host up) scanned in 47.74 seconds

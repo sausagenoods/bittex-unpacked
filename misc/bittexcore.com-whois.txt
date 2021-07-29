@@ -1,0 +1,57 @@
+Domain Name: bittexcore.com
+Registry Domain ID: 2629272998_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.namesilo.com
+Registrar URL: https://www.namesilo.com/
+Updated Date: 2021-07-26T07:00:00Z
+Creation Date: 2021-07-25T07:00:00Z
+Registrar Registration Expiration Date: 2022-07-25T07:00:00Z
+Registrar: NameSilo, LLC
+Registrar IANA ID: 1479
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone: +1.4805240066
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Registry Registrant ID:
+Registrant Name: Domain Administrator
+Registrant Organization: See PrivacyGuardian.org
+Registrant Street: 1928 E. Highland Ave. Ste F104 PMB# 255
+Registrant City: Phoenix
+Registrant State/Province: AZ
+Registrant Postal Code: 85016
+Registrant Country: US
+Registrant Phone: +1.3478717726
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email:
+Registry Admin ID:
+Admin Name: Domain Administrator
+Admin Organization: See PrivacyGuardian.org
+Admin Street: 1928 E. Highland Ave. Ste F104 PMB# 255
+Admin City: Phoenix
+Admin State/Province: AZ
+Admin Postal Code: 85016
+Admin Country: US
+Admin Phone: +1.3478717726
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email:
+Registry Tech ID:
+Tech Name: Domain Administrator
+Tech Organization: See PrivacyGuardian.org
+Tech Street: 1928 E. Highland Ave. Ste F104 PMB# 255
+Tech City: Phoenix
+Tech State/Province: AZ
+Tech Postal Code: 85016
+Tech Country: US
+Tech Phone: +1.3478717726
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email:
+Name Server: ns1.bittexcore.com
+Name Server: ns2.bittexcore.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+
+For more information on Whois status codes, please visit https://icann.org/epp
