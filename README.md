@@ -9,7 +9,7 @@ This is an ongoing Telegram scam where scammers pretend to have accidentally sen
 Their goal is to infect people with the third wallet option.
 
 * [Bittex repository.](https://github.com/corewallet/bittex)
-* [My fork in case the original gets deleted.](https://github.com/sausagenoods/bittex)
+* Look at [/bittex-repo](https://github.com/sausagenoods/bittex-unpacked/blob/master/bittex-repo/README.md) in case it gets deleted.
 
 The repository and the account owning it were created only 2 days ago from when one of my friends received a message from their scammers. It currently consists of a single file, README.md, which has been edited several times to make commits appear more realistic.
 
